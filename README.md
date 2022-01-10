@@ -36,3 +36,9 @@ This image shows the architecture of the Deployment.
 <li>Communication between the PhpMyAdmin and MYSQL Containers is done using hostname and the internal Port Nos (not shown in diagram) in a seperate internal network not accessible for public.</li>
 <li>Communication between the External Client and the Individual Services are done using the Exposed Ports (via Docker Port Mapping)</li>
 </ol>
+<h2>Implementation Link</h2>
+<ol>
+<li><strong>XYZ Static Website Link</strong> - <a href="http://projects.aninda.co.in">http://projects.aninda.co.in</a></li>
+<li><strong>PhpMyAdmin Login Link</strong> - <a href="http://projects.aninda.co.in">http://projects.aninda.co.in/db</a></li>
+<li><strong>Note</strong> - The MYSQL Server is directly accessible from the Port 3306 from the Domain - projects.aninda.co.in</li>
+</ol>
