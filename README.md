@@ -26,4 +26,4 @@ The Purpose of the project was to demonstrate that -
 </ol>
 
 <h2>Architecture</h2>
-
+<img src="https://i.imgur.com/ve15ePj.png">
