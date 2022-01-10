@@ -9,8 +9,8 @@ This is a simple docker project. Here we deploy multiple containers as listed be
  <li>
 <strong>Website Redirection Server</strong> - This is a Webserver whose purpose is to redirect the Client to either the Site [1] or the Site [3]
 	<ul>
-		<li>If the Client Request is in the format http://<domain>/ or http://<domain>/xyz then the Server redirects to XYZ Site</li>
-		<li>If the Client Request is in the format http://<domain>/db then the Server redirects to the Phpmyadmin Site</li>
+		<li>If the Client Request is in the format http://&lt;domain&rt;/ or http://&lt;domain&rt;/xyz then the Server redirects to XYZ Site</li>
+		<li>If the Client Request is in the format http://&lt;domain&rt;/db then the Server redirects to the Phpmyadmin Site</li>
 	</ul>
 </li>
 </ol>
