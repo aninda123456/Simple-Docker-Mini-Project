@@ -27,3 +27,12 @@ The Purpose of the project was to demonstrate that -
 
 <h2>Architecture</h2>
 <img src="https://i.imgur.com/ve15ePj.png">
+
+This image shows the architecture of the Deployment.
+<ol>
+<li>All the Boxes represends the individual containers in which the services are deployed</li>
+<li>All the Container can be accessed directly from the <Domain> it exists in and there Port Numbers</li>
+<li>Each Container as a hostname. The names are written within the brackets. E.g - mysqldb is the Hostname for the MYSQL Server</li>
+<li>Communication between the PhpMyAdmin and MYSQL Containers is done using hostname and the internal Port Nos (not shown in diagram)</li>
+<li>Communication between the External Client and the Individual Services are done using the Exposed Ports (via Docker Port Mapping)</li>
+</ol>
