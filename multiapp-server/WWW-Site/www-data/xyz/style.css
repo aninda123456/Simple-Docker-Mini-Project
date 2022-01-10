@@ -1,0 +1,118 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("./images/coding.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0px;
+}
+header{
+    text-align: center;
+    color: white;
+    padding-top:0%;
+    overflow: auto;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 25vh;
+    padding-right: 25vh;
+}
+header h1{
+    font-weight:900;
+    font-size: 45px;
+}
+header p{
+    font-size: 25px;
+}
+header a{
+    background-color: grey;
+    padding: 20px;
+    border: 2px lightgray solid;
+    border-radius: 3px;
+    color: wheat;
+}
+#button{
+    margin-top: 50px;
+}
+header a:link{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+header a:hover{
+    color: black;
+    background-color: lightgray;
+}
+#content{
+    background-color: #B980F0;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    color: #3E215D;
+}
+#content-text{
+    columns: 2;
+    column-gap: 5px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+#content-text p{
+    margin: 0px;
+}
+#card-content{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-bottom: 2%;
+    background-color: #334;
+}
+.card{
+    background-color: white;
+    margin: 1.5%;
+    padding: 0%;
+    width: 35vh;
+}
+.text-box{
+    padding: 20px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(62, 65, 62, 0.829);
+}
+.promise {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 2% 15%;
+    margin-top: 20vh;
+}
+footer{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:center;
+    text-align: center;
+}
+footer div{
+    width: 33.33%;
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+#contact{
+    background-color: #2690d4;
+}
+#about{
+    background-color: #333;
+}
+#follow{
+    background-color: red;
+}
+i{
+    font-size: 55px;
+    margin: 10px;
+}

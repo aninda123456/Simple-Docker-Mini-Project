@@ -1,0 +1,47 @@
+version: "3.9"
+services:
+        nginx-home:
+                build: ./nginx-home-server
+                image: nginxhome:latest
+                ports: 
+                        - "80:80"
+                restart: always
+                depends_on: 
+                        - xyzSite
+                        - phpmyadmin
+        xyzSite:
+                build: ./WWW-Site
+                image: simplstaticwebsite:latest
+                ports:
+                        - "8090:80"
+                restart: always
+        mysqldb:
+                image: mysql:8.0.26
+                ports:
+                        - "3306:3306"
+                volumes:
+                        - ./phpmyadmin-db/mysql-data-dir:/var/lib/mysql
+                environment:
+                        MYSQL_ROOT_PASSWORD: 'password@#'
+                restart: always
+                networks:
+                        - intercomm
+        phpmyadmin:
+                image: phpmyadmin:5.1.1
+                ports:
+                        - "8080:80"
+                environment:
+                        PMA_HOST: 'mysqldb'
+                        PMA_PORT: 3306
+                depends_on:
+                        - mysqldb
+                restart: always
+                networks:
+                        - intercomm
+networks:
+        intercomm:
+                name: intercomm
+                ipam:
+                        driver: default
+                        config:
+                                - subnet: 192.168.0.0/16
