@@ -19,7 +19,11 @@ This is a simple docker project. Here we deploy multiple containers as listed be
 
 The Purpose of the project was to demonstrate that - 
 <ol>
-	<li>That we can Deploy Multiple Services using docker</li>
+	<li>We can Deploy Multiple Services using docker</li>
 	<li>Some of the Services (MYSQL and Phpmyadmin) can interact with each other using Internal Docker Networking</li>
-	<li>Docker makes the work of deploying multiple services simple each since each service is hosted in a seperate container, the environments are isolated from each other. This helps in ensuring that failure in a particular container does not disrupt the other services</li>
+	<li>Docker makes the work of deploying multiple services more resilient since each service is hosted in a seperate container, the environments are isolated from each other. This helps in ensuring that failure in a particular container does not disrupt the other services</li>
+	<li>Deploying multiple containers does not lead to compatibility issues which can be faced in traditional deployments</li>
 </ol>
+
+<h2>Architecture</h2>
+
