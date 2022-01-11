@@ -39,6 +39,6 @@ This image shows the architecture of the Deployment.
 <h2>Implementation Link</h2>
 <ol>
 <li><strong>XYZ Static Website Link</strong> - <a href="http://projects.aninda.co.in">http://projects.aninda.co.in</a></li>
-<li><strong>PhpMyAdmin Login Link</strong> - <a href="http://projects.aninda.co.in">http://projects.aninda.co.in/db</a></li>
+<li><strong>PhpMyAdmin Login Link</strong> - <a href="http://projects.aninda.co.in/db">http://projects.aninda.co.in/db</a></li>
 <li><strong>Note</strong> - The MYSQL Server is directly accessible from the Port 3306 from the Domain - projects.aninda.co.in</li>
 </ol>
